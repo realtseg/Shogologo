@@ -1,0 +1,36 @@
+body{        
+    /* padding-top: 60px;
+    padding-bottom: 40px; */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #ff7d27;
+}
+.fixed-header{
+    top: 0;
+    z-index: 1; 
+}
+.fixed-footer{
+    bottom: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+nav a{
+    color: #ff7d27;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.top-nav-item{
+    padding: 0px 5px;
+}
+
+.nav-icon{
+    padding: 0px 10px;
+}
